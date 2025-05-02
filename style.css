@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+/* container */
+  /* titles */
+  .titles{
+    background-color: #F0F0F0;
+    padding: 10px;
+  }
+  #title{
+    text-align: center;
+    color: #FFA500;
+    font-size: 4rem;
+    font-weight: 10;
+  }
+  #explanation{
+    text-align: center;
+    
+    font-weight: 50;
+  }
+  /* === */
+
+  /* select-buttons*/
+  .select-buttons{
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .select-buttons-row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #population, #languages{
+    background-color: #FFA500;
+    border: 0px;
+    padding: 5px 30px;
+    font-size: 1.2rem;
+    margin: 5px;
+  }
+  /* === */
+
+  /* output */
+  .output{
+    width:100% ;
+    background-color: #F0F0F0;
+    height: 100vh;
+  }
+  .output-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+
+
+    
+  }
+  .column-country{
+    width: 18%;
+    margin: 10px;
+
+
+  }
+  .column-chart{
+    width: 60%;
+    margin: 10px;
+
+
+  }
+  .column-value{
+    width:18%;
+    margin: 10px;
+
+
+  }
+  /* === */
+  /* created with script */
+  .text-style{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .number-style{
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .chart-style{
+    margin-bottom: 30px;
+    background-color: #FFA500;
+    height: 28px;
+    border-radius: 5px;
+  }
+/* === */
+
